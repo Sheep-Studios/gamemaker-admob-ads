@@ -58,7 +58,11 @@ function hide_banner() {
 function show_banner() {
 	GoogleMobileAds_ShowBanner();
 }
-	
+
+// Destroys a currently showing banner
+function destroy_banner() {
+	GoogleMobileAds_RemoveBanner();
+}
 	
 	
 	
